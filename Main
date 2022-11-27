@@ -1,14 +1,10 @@
 game.Players.PlayerAdded:Connect(function(Padd)
-    if Padd:IsInGroup(4531452) then
+	if Padd:IsInGroup(4531452) then
 		print(Padd.Name,"Is whitelisted")
 	else
-		  Padd:Kick("Not whitelisted")
+		Padd:Kick("Not whitelisted")
 	end
-    
 end)
-
- 
-                                
                                 
                                 -- OPEN SOURCED
                                  -- OPEN SOURCED
